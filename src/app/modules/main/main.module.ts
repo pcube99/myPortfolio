@@ -4,16 +4,24 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { ProjectComponent } from './project/project.component';
 import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { ProjectModalComponent } from './project-modal/project-modal.component';
 
 
 
 @NgModule({
   declarations: [
     HomePageComponent, 
-    ProjectComponent, ContactComponent, AboutComponent],
+    ProjectComponent, 
+    ContactComponent, 
+    AboutComponent, 
+    ProjectsComponent, ProjectModalComponent],
   exports: [
     HomePageComponent, 
-    ProjectComponent
+    ProjectComponent,
+    ContactComponent, 
+    AboutComponent, 
+    ProjectsComponent
   ],
   imports: [
     CommonModule

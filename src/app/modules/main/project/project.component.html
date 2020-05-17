@@ -1,1 +1,25 @@
-<p>project works!</p>
+<div class="row" id="container">
+    <div class="card blue-grey darken-1">
+        <div class="card-content white-text">
+            <span class="card-title">{{projectTitle}}</span>
+            <p>{{projectDescriptionShort}}</p>
+        </div>
+        <div class="card-action">
+            "modal{{mNumber}}"
+            
+            <a data-toggle="modal" data-modal-id="modal{{mNumber}}"
+                class="waves-effect waves-light btn modal-trigger"
+                title="edit" >View More</a>
+            <a id="githubLink" class="waves-effect waves-light btn" href="{{githubLink}}" target="_blank">Github
+                Link</a>
+        </div>
+    </div>
+</div>
+<app-project-modal
+    [projectTitle]=this.projectTitle
+    [projectDescriptionShort]=this.projectDescriptionShort
+    [projectDescriptionLong]=this.projectDescriptionLong
+    [imagePath]=this.imagePath
+    [githubLink]=this.githubLink
+    [mNumber]=this.mNumber>
+</app-project-modal>
