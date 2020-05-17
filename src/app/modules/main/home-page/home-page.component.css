@@ -53,5 +53,14 @@
 
 .textBold {
     font-weight: bold;
+    font-size: 30px;
     color: black;
 }
+
+.zoom {
+    transition: transform .2s; /* Animation */
+  }
+  
+  .zoom:hover {
+    transform: scale(1.2);
+  }

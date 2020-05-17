@@ -1,0 +1,38 @@
+h3 {
+    font-family: 'Satisfy', cursive;
+    margin-bottom: 6%;
+}
+
+.cursiveText {
+    font-family: 'Satisfy', cursive;
+    font-weight: bold;
+}
+
+.sbox1 {
+    background-color: #ace6f6;
+    margin: 2%;
+    padding: 1%;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.sbox2 {
+    background-color: #e4fcf9;
+    margin: 2%;
+    padding: 1%;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+img {
+    float: left;
+    margin-left: 10px;
+}
+
+.zoom {
+    transition: transform .2s; /* Animation */
+  }
+  
+  .zoom:hover {
+    transform: scale(1.2);
+  }
